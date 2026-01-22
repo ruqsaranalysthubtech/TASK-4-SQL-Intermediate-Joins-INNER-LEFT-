@@ -1,0 +1,491 @@
+INNER-JOIN OUTPUT,,,,
+OrderID,OrderDate,CustomerID,CompanyName,Country
+10643,25-08-1997 00:00,ALFKI,Alfreds Futterkiste,Germany
+10692,03-10-1997 00:00,ALFKI,Alfreds Futterkiste,Germany
+10702,13-10-1997 00:00,ALFKI,Alfreds Futterkiste,Germany
+10835,15-01-1998 00:00,ALFKI,Alfreds Futterkiste,Germany
+10952,16-03-1998 00:00,ALFKI,Alfreds Futterkiste,Germany
+11011,09-04-1998 00:00,ALFKI,Alfreds Futterkiste,Germany
+10308,18-09-1996 00:00,ANATR,Ana Trujillo Emparedados y helados,Mexico
+10625,08-08-1997 00:00,ANATR,Ana Trujillo Emparedados y helados,Mexico
+10759,28-11-1997 00:00,ANATR,Ana Trujillo Emparedados y helados,Mexico
+10926,04-03-1998 00:00,ANATR,Ana Trujillo Emparedados y helados,Mexico
+10365,27-11-1996 00:00,ANTON,Antonio Moreno Taquera,Mexico
+10507,15-04-1997 00:00,ANTON,Antonio Moreno Taquera,Mexico
+10535,13-05-1997 00:00,ANTON,Antonio Moreno Taquera,Mexico
+10573,19-06-1997 00:00,ANTON,Antonio Moreno Taquera,Mexico
+10677,22-09-1997 00:00,ANTON,Antonio Moreno Taquera,Mexico
+10682,25-09-1997 00:00,ANTON,Antonio Moreno Taquera,Mexico
+10856,28-01-1998 00:00,ANTON,Antonio Moreno Taquera,Mexico
+10355,15-11-1996 00:00,AROUT,Around the Horn,UK
+10383,16-12-1996 00:00,AROUT,Around the Horn,UK
+10453,21-02-1997 00:00,AROUT,Around the Horn,UK
+10558,04-06-1997 00:00,AROUT,Around the Horn,UK
+10707,16-10-1997 00:00,AROUT,Around the Horn,UK
+10741,14-11-1997 00:00,AROUT,Around the Horn,UK
+10743,17-11-1997 00:00,AROUT,Around the Horn,UK
+10768,08-12-1997 00:00,AROUT,Around the Horn,UK
+10793,24-12-1997 00:00,AROUT,Around the Horn,UK
+10864,02-02-1998 00:00,AROUT,Around the Horn,UK
+10920,03-03-1998 00:00,AROUT,Around the Horn,UK
+10953,16-03-1998 00:00,AROUT,Around the Horn,UK
+11016,10-04-1998 00:00,AROUT,Around the Horn,UK
+10278,12-08-1996 00:00,BERGS,Berglunds snabbkp,Sweden
+10280,14-08-1996 00:00,BERGS,Berglunds snabbkp,Sweden
+10384,16-12-1996 00:00,BERGS,Berglunds snabbkp,Sweden
+10444,12-02-1997 00:00,BERGS,Berglunds snabbkp,Sweden
+10445,13-02-1997 00:00,BERGS,Berglunds snabbkp,Sweden
+10524,01-05-1997 00:00,BERGS,Berglunds snabbkp,Sweden
+10572,18-06-1997 00:00,BERGS,Berglunds snabbkp,Sweden
+10626,11-08-1997 00:00,BERGS,Berglunds snabbkp,Sweden
+10654,02-09-1997 00:00,BERGS,Berglunds snabbkp,Sweden
+10672,17-09-1997 00:00,BERGS,Berglunds snabbkp,Sweden
+10689,01-10-1997 00:00,BERGS,Berglunds snabbkp,Sweden
+10733,07-11-1997 00:00,BERGS,Berglunds snabbkp,Sweden
+10778,16-12-1997 00:00,BERGS,Berglunds snabbkp,Sweden
+10837,16-01-1998 00:00,BERGS,Berglunds snabbkp,Sweden
+10857,28-01-1998 00:00,BERGS,Berglunds snabbkp,Sweden
+10866,03-02-1998 00:00,BERGS,Berglunds snabbkp,Sweden
+10875,06-02-1998 00:00,BERGS,Berglunds snabbkp,Sweden
+10924,04-03-1998 00:00,BERGS,Berglunds snabbkp,Sweden
+10501,09-04-1997 00:00,BLAUS,Blauer See Delikatessen,Germany
+10509,17-04-1997 00:00,BLAUS,Blauer See Delikatessen,Germany
+10582,27-06-1997 00:00,BLAUS,Blauer See Delikatessen,Germany
+10614,29-07-1997 00:00,BLAUS,Blauer See Delikatessen,Germany
+10853,27-01-1998 00:00,BLAUS,Blauer See Delikatessen,Germany
+10956,17-03-1998 00:00,BLAUS,Blauer See Delikatessen,Germany
+11058,29-04-1998 00:00,BLAUS,Blauer See Delikatessen,Germany
+10265,25-07-1996 00:00,BLONP,Blondesddsl pre et fils,France
+10297,04-09-1996 00:00,BLONP,Blondesddsl pre et fils,France
+10360,22-11-1996 00:00,BLONP,Blondesddsl pre et fils,France
+10436,05-02-1997 00:00,BLONP,Blondesddsl pre et fils,France
+10449,18-02-1997 00:00,BLONP,Blondesddsl pre et fils,France
+10559,05-06-1997 00:00,BLONP,Blondesddsl pre et fils,France
+10566,12-06-1997 00:00,BLONP,Blondesddsl pre et fils,France
+10584,30-06-1997 00:00,BLONP,Blondesddsl pre et fils,France
+10628,12-08-1997 00:00,BLONP,Blondesddsl pre et fils,France
+10679,23-09-1997 00:00,BLONP,Blondesddsl pre et fils,France
+10826,12-01-1998 00:00,BLONP,Blondesddsl pre et fils,France
+10326,10-10-1996 00:00,BOLID,Blido Comidas preparadas,Spain
+10801,29-12-1997 00:00,BOLID,Blido Comidas preparadas,Spain
+10970,24-03-1998 00:00,BOLID,Blido Comidas preparadas,Spain
+10331,16-10-1996 00:00,BONAP,Bon app',France
+10340,29-10-1996 00:00,BONAP,Bon app',France
+10362,25-11-1996 00:00,BONAP,Bon app',France
+10470,11-03-1997 00:00,BONAP,Bon app',France
+10511,18-04-1997 00:00,BONAP,Bon app',France
+10525,02-05-1997 00:00,BONAP,Bon app',France
+10663,10-09-1997 00:00,BONAP,Bon app',France
+10715,23-10-1997 00:00,BONAP,Bon app',France
+10730,05-11-1997 00:00,BONAP,Bon app',France
+10732,06-11-1997 00:00,BONAP,Bon app',France
+10755,26-11-1997 00:00,BONAP,Bon app',France
+10827,12-01-1998 00:00,BONAP,Bon app',France
+10871,05-02-1998 00:00,BONAP,Bon app',France
+10876,09-02-1998 00:00,BONAP,Bon app',France
+10932,06-03-1998 00:00,BONAP,Bon app',France
+10940,11-03-1998 00:00,BONAP,Bon app',France
+11076,06-05-1998 00:00,BONAP,Bon app',France
+10389,20-12-1996 00:00,BOTTM,Bottom-Dollar Markets,Canada
+10410,10-01-1997 00:00,BOTTM,Bottom-Dollar Markets,Canada
+10411,10-01-1997 00:00,BOTTM,Bottom-Dollar Markets,Canada
+10431,30-01-1997 00:00,BOTTM,Bottom-Dollar Markets,Canada
+10492,01-04-1997 00:00,BOTTM,Bottom-Dollar Markets,Canada
+10742,14-11-1997 00:00,BOTTM,Bottom-Dollar Markets,Canada
+10918,02-03-1998 00:00,BOTTM,Bottom-Dollar Markets,Canada
+10944,12-03-1998 00:00,BOTTM,Bottom-Dollar Markets,Canada
+10949,13-03-1998 00:00,BOTTM,Bottom-Dollar Markets,Canada
+10975,25-03-1998 00:00,BOTTM,Bottom-Dollar Markets,Canada
+10982,27-03-1998 00:00,BOTTM,Bottom-Dollar Markets,Canada
+11027,16-04-1998 00:00,BOTTM,Bottom-Dollar Markets,Canada
+11045,23-04-1998 00:00,BOTTM,Bottom-Dollar Markets,Canada
+11048,24-04-1998 00:00,BOTTM,Bottom-Dollar Markets,Canada
+10289,26-08-1996 00:00,BSBEV,B's Beverages,UK
+10471,11-03-1997 00:00,BSBEV,B's Beverages,UK
+10484,24-03-1997 00:00,BSBEV,B's Beverages,UK
+10538,15-05-1997 00:00,BSBEV,B's Beverages,UK
+10539,16-05-1997 00:00,BSBEV,B's Beverages,UK
+10578,24-06-1997 00:00,BSBEV,B's Beverages,UK
+10599,15-07-1997 00:00,BSBEV,B's Beverages,UK
+10943,11-03-1998 00:00,BSBEV,B's Beverages,UK
+10947,13-03-1998 00:00,BSBEV,B's Beverages,UK
+11023,14-04-1998 00:00,BSBEV,B's Beverages,UK
+10521,29-04-1997 00:00,CACTU,Cactus Comidas para llevar,Argentina
+10782,17-12-1997 00:00,CACTU,Cactus Comidas para llevar,Argentina
+10819,07-01-1998 00:00,CACTU,Cactus Comidas para llevar,Argentina
+10881,11-02-1998 00:00,CACTU,Cactus Comidas para llevar,Argentina
+10937,10-03-1998 00:00,CACTU,Cactus Comidas para llevar,Argentina
+11054,28-04-1998 00:00,CACTU,Cactus Comidas para llevar,Argentina
+10259,18-07-1996 00:00,CENTC,Centro comercial Moctezuma,Mexico
+10254,11-07-1996 00:00,CHOPS,Chop-suey Chinese,Switzerland
+10370,03-12-1996 00:00,CHOPS,Chop-suey Chinese,Switzerland
+10519,28-04-1997 00:00,CHOPS,Chop-suey Chinese,Switzerland
+10731,06-11-1997 00:00,CHOPS,Chop-suey Chinese,Switzerland
+10746,19-11-1997 00:00,CHOPS,Chop-suey Chinese,Switzerland
+10966,20-03-1998 00:00,CHOPS,Chop-suey Chinese,Switzerland
+11029,16-04-1998 00:00,CHOPS,Chop-suey Chinese,Switzerland
+11041,22-04-1998 00:00,CHOPS,Chop-suey Chinese,Switzerland
+10290,27-08-1996 00:00,COMMI,Comrcio Mineiro,Brazil
+10466,06-03-1997 00:00,COMMI,Comrcio Mineiro,Brazil
+10494,02-04-1997 00:00,COMMI,Comrcio Mineiro,Brazil
+10969,23-03-1998 00:00,COMMI,Comrcio Mineiro,Brazil
+11042,22-04-1998 00:00,COMMI,Comrcio Mineiro,Brazil
+10435,04-02-1997 00:00,CONSH,Consolidated Holdings,UK
+10462,03-03-1997 00:00,CONSH,Consolidated Holdings,UK
+10848,23-01-1998 00:00,CONSH,Consolidated Holdings,UK
+10363,26-11-1996 00:00,DRACD,Drachenblut Delikatessen,Germany
+10391,23-12-1996 00:00,DRACD,Drachenblut Delikatessen,Germany
+10797,25-12-1997 00:00,DRACD,Drachenblut Delikatessen,Germany
+10825,09-01-1998 00:00,DRACD,Drachenblut Delikatessen,Germany
+11036,20-04-1998 00:00,DRACD,Drachenblut Delikatessen,Germany
+11067,04-05-1998 00:00,DRACD,Drachenblut Delikatessen,Germany
+10311,20-09-1996 00:00,DUMON,Du monde entier,France
+10609,24-07-1997 00:00,DUMON,Du monde entier,France
+10683,26-09-1997 00:00,DUMON,Du monde entier,France
+10890,16-02-1998 00:00,DUMON,Du monde entier,France
+10364,26-11-1996 00:00,EASTC,Eastern Connection,UK
+10400,01-01-1997 00:00,EASTC,Eastern Connection,UK
+10532,09-05-1997 00:00,EASTC,Eastern Connection,UK
+10726,03-11-1997 00:00,EASTC,Eastern Connection,UK
+10987,31-03-1998 00:00,EASTC,Eastern Connection,UK
+11024,15-04-1998 00:00,EASTC,Eastern Connection,UK
+11047,24-04-1998 00:00,EASTC,Eastern Connection,UK
+11056,28-04-1998 00:00,EASTC,Eastern Connection,UK
+10258,17-07-1996 00:00,ERNSH,Ernst Handel,Austria
+10263,23-07-1996 00:00,ERNSH,Ernst Handel,Austria
+10351,11-11-1996 00:00,ERNSH,Ernst Handel,Austria
+10368,29-11-1996 00:00,ERNSH,Ernst Handel,Austria
+10382,13-12-1996 00:00,ERNSH,Ernst Handel,Austria
+10390,23-12-1996 00:00,ERNSH,Ernst Handel,Austria
+10402,02-01-1997 00:00,ERNSH,Ernst Handel,Austria
+10403,03-01-1997 00:00,ERNSH,Ernst Handel,Austria
+10430,30-01-1997 00:00,ERNSH,Ernst Handel,Austria
+10442,11-02-1997 00:00,ERNSH,Ernst Handel,Austria
+10514,22-04-1997 00:00,ERNSH,Ernst Handel,Austria
+10571,17-06-1997 00:00,ERNSH,Ernst Handel,Austria
+10595,10-07-1997 00:00,ERNSH,Ernst Handel,Austria
+10633,15-08-1997 00:00,ERNSH,Ernst Handel,Austria
+10667,12-09-1997 00:00,ERNSH,Ernst Handel,Austria
+10698,09-10-1997 00:00,ERNSH,Ernst Handel,Austria
+10764,03-12-1997 00:00,ERNSH,Ernst Handel,Austria
+10771,10-12-1997 00:00,ERNSH,Ernst Handel,Austria
+10773,11-12-1997 00:00,ERNSH,Ernst Handel,Austria
+10776,15-12-1997 00:00,ERNSH,Ernst Handel,Austria
+10795,24-12-1997 00:00,ERNSH,Ernst Handel,Austria
+10836,16-01-1998 00:00,ERNSH,Ernst Handel,Austria
+10854,27-01-1998 00:00,ERNSH,Ernst Handel,Austria
+10895,18-02-1998 00:00,ERNSH,Ernst Handel,Austria
+10968,23-03-1998 00:00,ERNSH,Ernst Handel,Austria
+10979,26-03-1998 00:00,ERNSH,Ernst Handel,Austria
+10990,01-04-1998 00:00,ERNSH,Ernst Handel,Austria
+11008,08-04-1998 00:00,ERNSH,Ernst Handel,Austria
+11017,13-04-1998 00:00,ERNSH,Ernst Handel,Austria
+11072,05-05-1998 00:00,ERNSH,Ernst Handel,Austria
+10347,06-11-1996 00:00,FAMIA,Familia Arquibaldo,Brazil
+10386,18-12-1996 00:00,FAMIA,Familia Arquibaldo,Brazil
+10414,14-01-1997 00:00,FAMIA,Familia Arquibaldo,Brazil
+10512,21-04-1997 00:00,FAMIA,Familia Arquibaldo,Brazil
+10581,26-06-1997 00:00,FAMIA,Familia Arquibaldo,Brazil
+10650,29-08-1997 00:00,FAMIA,Familia Arquibaldo,Brazil
+10725,31-10-1997 00:00,FAMIA,Familia Arquibaldo,Brazil
+10408,08-01-1997 00:00,FOLIG,Folies gourmandes,France
+10480,20-03-1997 00:00,FOLIG,Folies gourmandes,France
+10634,15-08-1997 00:00,FOLIG,Folies gourmandes,France
+10763,03-12-1997 00:00,FOLIG,Folies gourmandes,France
+10789,22-12-1997 00:00,FOLIG,Folies gourmandes,France
+10264,24-07-1996 00:00,FOLKO,Folk och f HB,Sweden
+10327,11-10-1996 00:00,FOLKO,Folk och f HB,Sweden
+10378,10-12-1996 00:00,FOLKO,Folk och f HB,Sweden
+10434,03-02-1997 00:00,FOLKO,Folk och f HB,Sweden
+10460,28-02-1997 00:00,FOLKO,Folk och f HB,Sweden
+10533,12-05-1997 00:00,FOLKO,Folk och f HB,Sweden
+10561,06-06-1997 00:00,FOLKO,Folk och f HB,Sweden
+10703,14-10-1997 00:00,FOLKO,Folk och f HB,Sweden
+10762,02-12-1997 00:00,FOLKO,Folk och f HB,Sweden
+10774,11-12-1997 00:00,FOLKO,Folk och f HB,Sweden
+10824,09-01-1998 00:00,FOLKO,Folk och f HB,Sweden
+10880,10-02-1998 00:00,FOLKO,Folk och f HB,Sweden
+10902,23-02-1998 00:00,FOLKO,Folk och f HB,Sweden
+10955,17-03-1998 00:00,FOLKO,Folk och f HB,Sweden
+10977,26-03-1998 00:00,FOLKO,Folk och f HB,Sweden
+10980,27-03-1998 00:00,FOLKO,Folk och f HB,Sweden
+10993,01-04-1998 00:00,FOLKO,Folk och f HB,Sweden
+11001,06-04-1998 00:00,FOLKO,Folk och f HB,Sweden
+11050,27-04-1998 00:00,FOLKO,Folk och f HB,Sweden
+10267,29-07-1996 00:00,FRANK,Frankenversand,Germany
+10337,24-10-1996 00:00,FRANK,Frankenversand,Germany
+10342,30-10-1996 00:00,FRANK,Frankenversand,Germany
+10396,27-12-1996 00:00,FRANK,Frankenversand,Germany
+10488,27-03-1997 00:00,FRANK,Frankenversand,Germany
+10560,06-06-1997 00:00,FRANK,Frankenversand,Germany
+10623,07-08-1997 00:00,FRANK,Frankenversand,Germany
+10653,02-09-1997 00:00,FRANK,Frankenversand,Germany
+10670,16-09-1997 00:00,FRANK,Frankenversand,Germany
+10675,19-09-1997 00:00,FRANK,Frankenversand,Germany
+10717,24-10-1997 00:00,FRANK,Frankenversand,Germany
+10791,23-12-1997 00:00,FRANK,Frankenversand,Germany
+10859,29-01-1998 00:00,FRANK,Frankenversand,Germany
+10929,05-03-1998 00:00,FRANK,Frankenversand,Germany
+11012,09-04-1998 00:00,FRANK,Frankenversand,Germany
+10671,17-09-1997 00:00,FRANR,France restauration,France
+10860,29-01-1998 00:00,FRANR,France restauration,France
+10971,24-03-1998 00:00,FRANR,France restauration,France
+10422,22-01-1997 00:00,FRANS,Franchi S.p.A.,Italy
+10710,20-10-1997 00:00,FRANS,Franchi S.p.A.,Italy
+10753,25-11-1997 00:00,FRANS,Franchi S.p.A.,Italy
+10807,31-12-1997 00:00,FRANS,Franchi S.p.A.,Italy
+11026,15-04-1998 00:00,FRANS,Franchi S.p.A.,Italy
+11060,30-04-1998 00:00,FRANS,Franchi S.p.A.,Italy
+10328,14-10-1996 00:00,FURIB,Furia Bacalhau e Frutos do Mar,Portugal
+10352,12-11-1996 00:00,FURIB,Furia Bacalhau e Frutos do Mar,Portugal
+10464,04-03-1997 00:00,FURIB,Furia Bacalhau e Frutos do Mar,Portugal
+10491,31-03-1997 00:00,FURIB,Furia Bacalhau e Frutos do Mar,Portugal
+10551,28-05-1997 00:00,FURIB,Furia Bacalhau e Frutos do Mar,Portugal
+10604,18-07-1997 00:00,FURIB,Furia Bacalhau e Frutos do Mar,Portugal
+10664,10-09-1997 00:00,FURIB,Furia Bacalhau e Frutos do Mar,Portugal
+10963,19-03-1998 00:00,FURIB,Furia Bacalhau e Frutos do Mar,Portugal
+10366,28-11-1996 00:00,GALED,Galera del gastrnomo,Spain
+10426,27-01-1997 00:00,GALED,Galera del gastrnomo,Spain
+10568,13-06-1997 00:00,GALED,Galera del gastrnomo,Spain
+10887,13-02-1998 00:00,GALED,Galera del gastrnomo,Spain
+10928,05-03-1998 00:00,GALED,Galera del gastrnomo,Spain
+10303,11-09-1996 00:00,GODOS,Godos Cocina Tpica,Spain
+10550,28-05-1997 00:00,GODOS,Godos Cocina Tpica,Spain
+10629,12-08-1997 00:00,GODOS,Godos Cocina Tpica,Spain
+10872,05-02-1998 00:00,GODOS,Godos Cocina Tpica,Spain
+10874,06-02-1998 00:00,GODOS,Godos Cocina Tpica,Spain
+10888,16-02-1998 00:00,GODOS,Godos Cocina Tpica,Spain
+10911,26-02-1998 00:00,GODOS,Godos Cocina Tpica,Spain
+10948,13-03-1998 00:00,GODOS,Godos Cocina Tpica,Spain
+11009,08-04-1998 00:00,GODOS,Godos Cocina Tpica,Spain
+11037,21-04-1998 00:00,GODOS,Godos Cocina Tpica,Spain
+10423,23-01-1997 00:00,GOURL,Gourmet Lanchonetes,Brazil
+10652,01-09-1997 00:00,GOURL,Gourmet Lanchonetes,Brazil
+10685,29-09-1997 00:00,GOURL,Gourmet Lanchonetes,Brazil
+10709,17-10-1997 00:00,GOURL,Gourmet Lanchonetes,Brazil
+10734,07-11-1997 00:00,GOURL,Gourmet Lanchonetes,Brazil
+10777,15-12-1997 00:00,GOURL,Gourmet Lanchonetes,Brazil
+10790,22-12-1997 00:00,GOURL,Gourmet Lanchonetes,Brazil
+10959,18-03-1998 00:00,GOURL,Gourmet Lanchonetes,Brazil
+11049,24-04-1998 00:00,GOURL,Gourmet Lanchonetes,Brazil
+10528,06-05-1997 00:00,GREAL,Great Lakes Food Market,USA
+10589,04-07-1997 00:00,GREAL,Great Lakes Food Market,USA
+10616,31-07-1997 00:00,GREAL,Great Lakes Food Market,USA
+10617,31-07-1997 00:00,GREAL,Great Lakes Food Market,USA
+10656,04-09-1997 00:00,GREAL,Great Lakes Food Market,USA
+10681,25-09-1997 00:00,GREAL,Great Lakes Food Market,USA
+10816,06-01-1998 00:00,GREAL,Great Lakes Food Market,USA
+10936,09-03-1998 00:00,GREAL,Great Lakes Food Market,USA
+11006,07-04-1998 00:00,GREAL,Great Lakes Food Market,USA
+11040,22-04-1998 00:00,GREAL,Great Lakes Food Market,USA
+11061,30-04-1998 00:00,GREAL,Great Lakes Food Market,USA
+10268,30-07-1996 00:00,GROSR,GROSELLA-Restaurante,Venezuela
+10785,18-12-1997 00:00,GROSR,GROSELLA-Restaurante,Venezuela
+10250,08-07-1996 00:00,HANAR,Hanari Carnes,Brazil
+10253,10-07-1996 00:00,HANAR,Hanari Carnes,Brazil
+10541,19-05-1997 00:00,HANAR,Hanari Carnes,Brazil
+10645,26-08-1997 00:00,HANAR,Hanari Carnes,Brazil
+10690,02-10-1997 00:00,HANAR,Hanari Carnes,Brazil
+10770,09-12-1997 00:00,HANAR,Hanari Carnes,Brazil
+10783,18-12-1997 00:00,HANAR,Hanari Carnes,Brazil
+10886,13-02-1998 00:00,HANAR,Hanari Carnes,Brazil
+10903,24-02-1998 00:00,HANAR,Hanari Carnes,Brazil
+10922,03-03-1998 00:00,HANAR,Hanari Carnes,Brazil
+10925,04-03-1998 00:00,HANAR,Hanari Carnes,Brazil
+10981,27-03-1998 00:00,HANAR,Hanari Carnes,Brazil
+11022,14-04-1998 00:00,HANAR,Hanari Carnes,Brazil
+11052,27-04-1998 00:00,HANAR,Hanari Carnes,Brazil
+10257,16-07-1996 00:00,HILAA,HILARION-Abastos,Venezuela
+10395,26-12-1996 00:00,HILAA,HILARION-Abastos,Venezuela
+10476,17-03-1997 00:00,HILAA,HILARION-Abastos,Venezuela
+10486,26-03-1997 00:00,HILAA,HILARION-Abastos,Venezuela
+10490,31-03-1997 00:00,HILAA,HILARION-Abastos,Venezuela
+,,,,
+,,,,
+joined_orders,,,,
+830,,,,
+,,,,
+,,,,
+total_orders,,,,
+830,,,,
+,,,,
+LEFT-JOIN OUTPUT,,,,
+,,,,
+CustomerID,CompanyName,Country,,
+FISSA,FISSA Fabrica Inter. Salchichas S.A.,Spain,,
+PARIS,Paris spcialits,France,,
+Val2 ,IT,NULL,,
+VALON,IT,NULL,,
+,,,,
+ORDER+PTODUCT OUTPUT,,,,
+,,,,
+ProductID,ProductName,total_revenue,,
+38,Cte de Blaye,149984.2,,
+29,Thringer Rostbratwurst,87736.4,,
+59,Raclette Courdavault,76296,,
+60,Camembert Pierrot,50286,,
+62,Tarte au sucre,49827.9,,
+56,Gnocchi di nonna Alice,45121.2,,
+51,Manjimup Dried Apples,44742.6,,
+17,Alice Mutton,35482.2,,
+18,Carnarvon Tigers,31987.5,,
+28,Rssle Sauerkraut,26865.6,,
+72,Mozzarella di Giovanni,25738.8,,
+43,Ipoh Coffee,25079.2,,
+69,Gudbrandsdalsost,24307.2,,
+20,Sir Rodney's Marmalade,23635.8,,
+64,Wimmers gute Semmelkndel,23009,,
+7,Uncle Bob's Organic Dried Pears,22464,,
+10,Ikura,22140.2,,
+26,Gumbr Gummibrchen,21534.9,,
+53,Perth Pasties,21510.2,,
+71,Flotemysost,20876.5,,
+55,Pt chinois,19512,,
+40,Boston Crab Meat,19048.3,,
+16,Pavlova,18748.05,,
+2,Chang,18559.2,,
+63,Vegie-spread,17696.3,,
+76,Lakkalikri,16794,,
+61,Sirop d'rable,16438.8,,
+31,Gorgonzola Telino,16172.5,,
+27,Schoggi Schokolade,15231.5,,
+30,Nord-Ost Matjeshering,14775.54,,
+65,Louisiana Fiery Hot Pepper Sauce,14607,,
+36,Inlagd Sill,14542.6,,
+35,Steeleye Stout,14536.8,,
+1,Chai,14277.6,,
+11,Queso Cabrales,13902,,
+8,Northwoods Cranberry Sauce,13760,,
+39,Chartreuse verte,13150.8,,
+12,Queso Manchego La Pastora,12866.8,,
+70,Outback Lager,11472,,
+44,Gula Malacca,10524.2,,
+77,Original Frankfurter grne Soe,9685,,
+21,Sir Rodney's Scones,9636,,
+49,Maxilaku,9500,,
+4,Chef Anton's Cajun Seasoning,9424.8,,
+68,Scottish Longbreads,9362.5,,
+42,Singaporean Hokkien Fried Mee,9332.4,,
+32,Mascarpone Fabioli,9171.2,,
+41,Jack's New England Clam Chowder,9098.1,,
+9,Mishi Kobe Niku,8827,,
+75,Rhnbru Klosterbier,8650.55,,
+14,Tofu,8630.4,,
+57,Ravioli Angelo,7807.8,,
+6,Grandma's Boysenberry Spread,7345,,
+22,Gustaf's Knckebrd,7232.4,,
+34,Sasquatch Ale,6678,,
+58,Escargots de Bourgogne,6664.75,,
+19,Teatime Chocolate Biscuits,6159.5,,
+46,Spegesild,6144,,
+5,Chef Anton's Gumbo Mix,5801.15,,
+13,Konbu,5234.4,,
+54,Tourtire,5121,,
+23,Tunnbrd,4840.2,,
+24,Guaran Fantstica,4782.6,,
+45,Rogede sild,4740.5,,
+47,Zaanse koeken,4358.6,,
+73,Rd Kaviar,4200,,
+25,NuNuCa Nu-Nougat-Creme,4051.6,,
+66,Louisiana Hot Spiced Okra,3519,,
+50,Valkoinen suklaa,3510,,
+52,Filo Mix,3383.8,,
+3,Aniseed Syrup,3080,,
+37,Gravad lax,3047.2,,
+74,Longlife Tofu,2566,,
+67,Laughing Lumberjack Lager,2562,,
+15,Genen Shouyu,1813.5,,
+33,Geitost,1713.5,,
+48,Chocolade,1542.75,,
+,,,,
+CATEGORY WISE REVENUE,,,,
+CategoryName,category_revenue,,,
+Beverages,286526.95,,,
+Dairy Products,251330.5,,,
+Meat/Poultry,178188.8,,,
+Confections,177099.1,,,
+Seafood,141623.09,,,
+Condiments,113694.75,,,
+Produce,105268.6,,,
+Grains/Cereals,100726.8,,,
+,,,,
+TOTAL-REVENUE,,,,
+,,,,
+ProductName,total_revenue,,,
+Queso Cabrales,13902,,,
+Singaporean Hokkien Fried Mee,9332.4,,,
+Mozzarella di Giovanni,25738.8,,,
+Tofu,8630.4,,,
+Manjimup Dried Apples,44742.6,,,
+Jack's New England Clam Chowder,9098.1,,,
+Louisiana Fiery Hot Pepper Sauce,14607,,,
+Gustaf's Knckebrd,7232.4,,,
+Ravioli Angelo,7807.8,,,
+Sir Rodney's Marmalade,23635.8,,,
+Geitost,1713.5,,,
+Camembert Pierrot,50286,,,
+Gorgonzola Telino,16172.5,,,
+Chartreuse verte,13150.8,,,
+Maxilaku,9500,,,
+Guaran Fantstica,4782.6,,,
+Pt chinois,19512,,,
+Longlife Tofu,2566,,,
+Chang,18559.2,,,
+Pavlova,18748.05,,,
+Inlagd Sill,14542.6,,,
+Raclette Courdavault,76296,,,
+Perth Pasties,21510.2,,,
+Original Frankfurter grne Soe,9685,,,
+Schoggi Schokolade,15231.5,,,
+Chef Anton's Gumbo Mix,5801.15,,,
+Mascarpone Fabioli,9171.2,,,
+Sir Rodney's Scones,9636,,,
+Gravad lax,3047.2,,,
+Tarte au sucre,49827.9,,,
+Outback Lager,11472,,,
+Steeleye Stout,14536.8,,,
+Uncle Bob's Organic Dried Pears,22464,,,
+Gnocchi di nonna Alice,45121.2,,,
+Nord-Ost Matjeshering,14775.54,,,
+Alice Mutton,35482.2,,,
+Queso Manchego La Pastora,12866.8,,,
+Boston Crab Meat,19048.3,,,
+Lakkalikri,16794,,,
+Thringer Rostbratwurst,87736.4,,,
+Ipoh Coffee,25079.2,,,
+Ikura,22140.2,,,
+Flotemysost,20876.5,,,
+Konbu,5234.4,,,
+Rssle Sauerkraut,26865.6,,,
+Gula Malacca,10524.2,,,
+Vegie-spread,17696.3,,,
+Rd Kaviar,4200,,,
+Rhnbru Klosterbier,8650.55,,,
+Teatime Chocolate Biscuits,6159.5,,,
+Genen Shouyu,1813.5,,,
+Laughing Lumberjack Lager,2562,,,
+Chai,14277.6,,,
+Sasquatch Ale,6678,,,
+Spegesild,6144,,,
+Tourtire,5121,,,
+Scottish Longbreads,9362.5,,,
+Aniseed Syrup,3080,,,
+Wimmers gute Semmelkndel,23009,,,
+Carnarvon Tigers,31987.5,,,
+Gudbrandsdalsost,24307.2,,,
+Louisiana Hot Spiced Okra,3519,,,
+Chef Anton's Cajun Seasoning,9424.8,,,
+Grandma's Boysenberry Spread,7345,,,
+Escargots de Bourgogne,6664.75,,,
+Filo Mix,3383.8,,,
+NuNuCa Nu-Nougat-Creme,4051.6,,,
+Cte de Blaye,149984.2,,,
+Gumbr Gummibrchen,21534.9,,,
+Zaanse koeken,4358.6,,,
+Tunnbrd,4840.2,,,
+Northwoods Cranberry Sauce,13760,,,
+Valkoinen suklaa,3510,,,
+Rogede sild,4740.5,,,
+Chocolade,1542.75,,,
+Sirop d'rable,16438.8,,,
+Mishi Kobe Niku,8827,,,
